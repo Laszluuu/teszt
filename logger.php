@@ -6,9 +6,11 @@ class LoggerClass
     private $level;
     private $description;
 
-    public function __construct()
+    public function __construct(String $level, String $description)
     {
-           
+        $this->level = $level;
+        $this->description = $description;
+        $this->date = new DateTime('now');
     }
 }
 
