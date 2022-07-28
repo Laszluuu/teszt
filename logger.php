@@ -2,19 +2,8 @@
 
 class LoggerClass
 {
-    private $date;   
-    private $level;
-    private $description;
-
-    public function __construct(String $level, String $description)
-    {
-        $this->level = $level;
-        $this->description = $description;
-        $this->date = new DateTime('now');
-    }
-
-    public function debug(){
-        echo "Debug";
+    public function debug(String $level, String $description){
+        echo (new DateTime('now'))->format('Y-m-d')."[$level] - $description";
     }
 }
 
