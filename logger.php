@@ -12,6 +12,10 @@ class LoggerClass
         $this->description = $description;
         $this->date = new DateTime('now');
     }
+
+    public function debug(){
+        echo "Debug";
+    }
 }
 
 
