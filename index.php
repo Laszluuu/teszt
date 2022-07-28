@@ -7,10 +7,10 @@
     <table>
       <thead>
       <tr>
-        <td>id</td>
-        <td>name</td>
-        <td>status</td>
-        <td>level</td>
+        <th>id</th>
+        <th>name</th>
+        <th>status</th>
+        <th>level</th>
       </tr>
         </thead>
     </table>
