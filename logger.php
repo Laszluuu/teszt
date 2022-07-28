@@ -13,6 +13,10 @@ class LoggerClass
     public function debug3(String $level, String $description){
         echo (new DateTime('now'))->format('Y-m-d')."[$level] - $description";
     }
+
+    public function debug4(String $level, String $description){
+        echo (new DateTime('now'))->format('Y-m-d')."[$level] - $description";
+    }
 }
 
 
