@@ -1,6 +1,11 @@
 <!html>
   <head>
     <title>Database for User</title>
+    <style>
+      table{
+      color:black
+      }
+    </style>
   </head>
   <body>
     <h1>Hi Everyone!</h1>
